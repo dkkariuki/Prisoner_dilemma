@@ -17,6 +17,7 @@ Unpublished work (c)2013 Project Lead The Way
 CSE Project 1.3.5 Collaborating on a Project
 Draft, Do Not Distribute
 Version 8/23/2013 
+This is now version 7/23/2014 trying to make changes to learn GitHub
 '''
 
 import random
@@ -89,7 +90,7 @@ def play_iterative_rounds(player1, player2):
     number_of_rounds = random.randint(100,200)
     moves1 = ''
     moves2 = ''
-    score1 = 0
+    score1 = 1 # making changes from 0 to 1 just for testing
     score2 = 0
     for round in range(number_of_rounds):
         moves1, moves2, score1, score2 = \
